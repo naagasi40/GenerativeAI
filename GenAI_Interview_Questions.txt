@@ -1,0 +1,7 @@
+Transformation models and architecture
+what are chains
+using llms for data science and productionalizing
+What are indexers
+what are the options in indexers
+What are embeddings
+How do you process the image datasets nd generate content, lets take an example of lays with price
