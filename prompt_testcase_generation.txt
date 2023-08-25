@@ -1,0 +1,32 @@
+In the context of the Java class [class] provide unit test code for [javaType] declared as [name]. 
+
+Strictly follow all of the following rules:
+- Provide the source code of the unit tests JUST for the [javaType] declared as [name]. 
+- Use methods from the implemented interface also
+- Use JUnit 4
+- ONLY create test cases for public methods in [name]
+- Create config object and input request object with test data
+- Pass actual data in thenReturn
+- Use @Rule for exception test cases
+- Mock repository annotations
+- Use Mockito.anyString() or Mockito.any()
+- Use sample test data based on the input object
+- When necessary use @Before, @After
+- Use org.assertj.core.api.Assertions.assertThat
+- Use more than 1 assertThat
+
+In your response return JUST the source code with comments in the following format:
+
+```<language>
+<your source code>
+``` 
+
+[javaType]=${javaType}
+
+[name]=${name}
+
+[class]=
+```${lang}
+${documentText}
+```
+
